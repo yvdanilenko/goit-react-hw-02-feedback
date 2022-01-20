@@ -49,7 +49,7 @@ class App extends Component {
               positivePercentage={positivePercentage}
             ></Statistics>
           ) : (
-            <Notification message="No feedbacks yet"></Notification>
+            <Notification message="No feedbacks yet" />
           )}
         </Section>
       </>
